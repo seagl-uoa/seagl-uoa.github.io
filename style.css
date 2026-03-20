@@ -133,26 +133,28 @@ body {
 /* Quick Links */
 .quick-links {
     padding: 60px 20px;
-    background: #f8f9fa;
+    background: white;
 }
 
 .quick-links .container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .link-card {
-    background: white;
+    background: #f8f9fa;
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s;
+    border-left: 4px solid #c8102e;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .link-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.12);
 }
 
 .link-card h3 {
