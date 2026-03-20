@@ -3,55 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yining Hua - Research & Portfolio</title>
+    <title>Aged.AI - Affordable, Green, Efficient, and Decentralised AI</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <h1 class="logo">YH</h1>
+            <h1 class="logo">Aged.AI</h1>
             <ul class="nav-menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="research/">Research</a></li>
-                <li><a href="personal/">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="index.html" class="active" data-key="nav_home">Home</a></li>
+                <li><a href="about/" data-key="nav_about">About</a></li>
+                <li><a href="projects/" data-key="nav_projects">Projects</a></li>
+                <li><a href="publications/" data-key="nav_publications">Publications</a></li>
+                <li><a href="case-studies/" data-key="nav_casestudy">Case Study</a></li>
+                <li><a href="team/" data-key="nav_team">Team</a></li>
+                <li><a href="news/" data-key="nav_news">News</a></li>
+                <li><a href="contact/" data-key="nav_contact">Contact</a></li>
             </ul>
+            <button id="lang-toggle" class="lang-toggle">中文</button>
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h1>Welcome</h1>
-            <p>Researcher | Developer | Explorer</p>
+            <h1 data-key="hero_title">Welcome</h1>
+            <p data-key="hero_sub">Efficient | Affordable | Green | Decentralised</p>
             <div class="hero-buttons">
-                <a href="research/" class="btn btn-primary">View My Research</a>
-                <a href="personal/" class="btn btn-secondary">View My Portfolio</a>
+                <a href="about/" class="btn btn-primary" data-key="btn_whatwedo">What We Do</a>
+                <a href="news/" class="btn btn-secondary" data-key="btn_news">News</a>
             </div>
         </div>
     </section>
 
+    <!-- Quick Links -->
     <section class="quick-links">
         <div class="container">
             <div class="link-card">
-                <h3>📚 Research</h3>
-                <p>Explore my research projects, publications, and work.</p>
-                <a href="research/">Go to Research →</a>
+                <h3 data-key="card_proj_title">📊 Projects</h3>
+                <p data-key="card_proj_desc">Explore our innovative research and development projects.</p>
+                <a href="projects/" data-key="card_proj_link">Go to Projects →</a>
             </div>
             <div class="link-card">
-                <h3>💼 Portfolio</h3>
-                <p>See my personal projects and professional experience.</p>
-                <a href="personal/">Go to Portfolio →</a>
+                <h3 data-key="card_pub_title">📚 Publications</h3>
+                <p data-key="card_pub_desc">Read our published papers and research findings.</p>
+                <a href="publications/" data-key="card_pub_link">Go to Publications →</a>
+            </div>
+            <div class="link-card">
+                <h3 data-key="card_case_title">🔍 Case Studies</h3>
+                <p data-key="card_case_desc">Discover detailed case studies and real-world applications.</p>
+                <a href="case-studies/" data-key="card_case_link">Go to Case Studies →</a>
+            </div>
+            <div class="link-card">
+                <h3 data-key="card_team_title">👥 Team</h3>
+                <p data-key="card_team_desc">Meet the talented researchers and collaborators.</p>
+                <a href="team/" data-key="card_team_link">Go to Team →</a>
             </div>
         </div>
     </section>
 
-    <footer id="contact" class="footer">
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container">
-            <h2>Get in Touch</h2>
-            <p>Email: yininghua@outlook.com</p>
+            <h2 data-key="footer_heading">Get in Touch</h2>
+            <p>Email: yining.hua@outlook.com</p>
             <p>GitHub: <a href="https://github.com/yininghua1994" target="_blank">github.com/yininghua1994</a></p>
-            <p>&copy; 2024. All rights reserved.</p>
+            <p data-key="footer_rights">© 2024. All rights reserved.</p>
         </div>
     </footer>
+
+    <script src="assets/js/lang.js"></script>
 </body>
 </html>

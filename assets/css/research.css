@@ -1,5 +1,5 @@
 .research-hero {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1a3668 0%, #c8102e 100%);
     color: white;
     padding: 80px 20px;
     text-align: center;
@@ -8,6 +8,11 @@
 .research-hero h1 {
     font-size: 40px;
     margin-bottom: 10px;
+}
+
+.research-hero p {
+    font-size: 18px;
+    opacity: 0.9;
 }
 
 .research-content {
@@ -21,26 +26,40 @@
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 8px;
-    border-left: 4px solid #667eea;
+    border-left: 4px solid #c8102e;
 }
 
 .research-item h2 {
-    color: #667eea;
+    color: #1a3668;
     margin-bottom: 10px;
+    font-size: 22px;
 }
 
 .research-item .date {
     color: #999;
     font-size: 14px;
     margin-bottom: 15px;
-}
-
-.research-item a {
-    color: #667eea;
-    text-decoration: none;
     font-weight: 600;
 }
 
+.research-item p {
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 12px;
+}
+
+.research-item strong {
+    color: #333;
+}
+
+.research-item a {
+    color: #c8102e;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
 .research-item a:hover {
+    color: #1a3668;
     text-decoration: underline;
 }
