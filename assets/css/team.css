@@ -91,6 +91,43 @@
     text-decoration: underline;
 }
 
+/* Section Titles */
+.team-section-title {
+    font-size: 22px;
+    color: #1a3668;
+    border-left: 4px solid #c8102e;
+    padding-left: 14px;
+    margin: 50px auto 24px;
+    max-width: 1200px;
+}
+
+/* Collaborator / Previous Member List */
+.collab-list {
+    max-width: 1200px;
+    margin: 0 auto 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.collab-item {
+    background: #f8f9fa;
+    border-left: 4px solid #c8102e;
+    padding: 14px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+}
+
+.collab-affil {
+    display: block;
+    font-size: 13px;
+    color: #666;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
     .team-grid {
