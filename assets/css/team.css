@@ -68,6 +68,20 @@
     margin-bottom: 10px;
 }
 
+.lead-badge {
+    display: inline-block;
+    background: #c8102e;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 1px 7px;
+    border-radius: 3px;
+    margin-left: 6px;
+    vertical-align: middle;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
 .team-member .bio {
     color: #666;
     font-size: 14px;
