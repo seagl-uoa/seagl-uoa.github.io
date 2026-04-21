@@ -164,5 +164,20 @@
         applyLang(current === 'en' ? 'zh' : 'en');
       });
     }
+
+    // Hamburger menu toggle
+    var hamburger = document.getElementById('hamburger');
+    var navCollapse = document.getElementById('nav-collapse');
+    if (hamburger && navCollapse) {
+      hamburger.addEventListener('click', function () {
+        navCollapse.classList.toggle('open');
+      });
+      // Close menu when a nav link is clicked
+      navCollapse.querySelectorAll('.nav-menu a').forEach(function (link) {
+        link.addEventListener('click', function () {
+          navCollapse.classList.remove('open');
+        });
+      });
+    }
   });
 })();
