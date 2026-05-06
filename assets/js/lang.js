@@ -12,7 +12,7 @@
 
       // index
       hero_title:           'Welcome',
-      hero_sub:             'Sustainable | Efficient | Green | Learning',
+      hero_sub:             'Sustainable | Efficient | Green',
       btn_whatwedo:         'What We Do',
       btn_news:             'News',
       card_proj_title:      '📊 Projects',
@@ -82,7 +82,7 @@
 
       // index
       hero_title:           '欢迎',
-      hero_sub:             '可持续 | 高效 | 绿色 | 学习',
+      hero_sub:             '可持续 | 高效 | 绿色',
       btn_whatwedo:         '我们的研究',
       btn_news:             '新闻动态',
       card_proj_title:      '📊 项目',
