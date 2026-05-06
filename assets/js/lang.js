@@ -12,7 +12,7 @@
 
       // index
       hero_title:           'Welcome',
-      hero_sub:             'Efficient | Affordable | Green | Decentralised',
+      hero_sub:             'Sustainable | Efficient | Green | Learning',
       btn_whatwedo:         'What We Do',
       btn_news:             'News',
       card_proj_title:      '📊 Projects',
@@ -33,7 +33,7 @@
 
       // about
       about_hero_title:     'What We Do',
-      about_hero_sub:       'Fundamental research towards Affordable, Green, Efficient, and Decentralised AI',
+      about_hero_sub:       'Fundamental research towards Sustainable, Efficient and Green Learning',
       about_core_h2:        'The Core Problem',
       about_theme1_h2:      'Research Theme 1: [Theme Title]',
       about_theme2_h2:      'Research Theme 2: [Theme Title]',
@@ -59,7 +59,7 @@
 
       // contact
       contact_hero_title:   'Contact',
-      contact_hero_sub:     'Get in touch with the Aged.AI research group',
+      contact_hero_sub:     'Get in touch with the SEaGL research group',
       contact_general_h2:   'General Enquiries',
       contact_collab_h2:    'Collaboration & Research',
       contact_phd_h2:       'PhD & Postdoc Opportunities',
@@ -67,7 +67,7 @@
 
       // news
       news_hero_title:      'News',
-      news_hero_sub:        'Latest updates from the Aged.AI research group',
+      news_hero_sub:        'Latest updates from the SEaGL research group',
     },
 
     zh: {
@@ -82,7 +82,7 @@
 
       // index
       hero_title:           '欢迎',
-      hero_sub:             '高效 | 经济实惠 | 绿色 | 去中心化',
+      hero_sub:             '可持续 | 高效 | 绿色 | 学习',
       btn_whatwedo:         '我们的研究',
       btn_news:             '新闻动态',
       card_proj_title:      '📊 项目',
@@ -103,7 +103,7 @@
 
       // about
       about_hero_title:     '我们的研究',
-      about_hero_sub:       '面向经济实惠、绿色、高效、去中心化人工智能的基础研究',
+      about_hero_sub:       '面向可持续、高效、绿色学习的基础研究',
       about_core_h2:        '核心问题',
       about_theme1_h2:      '研究方向一：[方向标题]',
       about_theme2_h2:      '研究方向二：[方向标题]',
@@ -129,7 +129,7 @@
 
       // contact
       contact_hero_title:   '联系我们',
-      contact_hero_sub:     '与 Aged.AI 研究团队取得联系',
+      contact_hero_sub:     '与 SEaGL 研究团队取得联系',
       contact_general_h2:   '一般咨询',
       contact_collab_h2:    '合作与研究',
       contact_phd_h2:       '博士及博士后招募',
@@ -137,7 +137,7 @@
 
       // news
       news_hero_title:      '新闻动态',
-      news_hero_sub:        'Aged.AI 研究团队的最新动态',
+      news_hero_sub:        'SEaGL 研究团队的最新动态',
     }
   };
 
