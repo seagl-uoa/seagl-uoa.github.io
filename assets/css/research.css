@@ -232,7 +232,8 @@
     font-weight: 500;
 }
 
-.project-student a {
+.project-student a,
+.project-student .name {
     color: #1a3668;
     text-decoration: none;
     font-weight: 600;
